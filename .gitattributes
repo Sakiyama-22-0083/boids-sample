@@ -1,0 +1,4 @@
+Library/ArtifactDB filter=lfs diff=lfs merge=lfs -text
+Packages/com.synesthesias.plateau-unity-sdk/Plugins/Linux/x86_64/libplateau.so filter=lfs diff=lfs merge=lfs -text
+Packages/com.synesthesias.plateau-unity-sdk/Samples/AttributesDisplaySample/AttributesDisplaySample.unity filter=lfs diff=lfs merge=lfs -text
+Packages/com.synesthesias.plateau-unity-sdk/Samples/AttributesColorSample/AttributesColorSample.unity filter=lfs diff=lfs merge=lfs -text

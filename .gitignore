@@ -1,5 +1,6 @@
-/[Ll]ibrary/Artifacts
-/[Ll]ibrary/PackageCache
+/[Ll]ibrary/
+/[Ll]ocalPackages/
+/[Uu]serSettings/
 /[Tt]emp/
 /[Oo]bj/
 /[Bb]uild/
@@ -19,6 +20,8 @@ ExportedObj/
 *.pidb
 *.booproj
 *.svd
+.idea/
+/*.sln.iml
 
 # Unity3D generated meta files
 *.pidb.meta
@@ -34,3 +37,22 @@ sysinfo.txt
 .vs
 Release/
 Debug/
+
+# Unity 2020+ の Burst Compiler キャッシュファイル
+[Bb]urstCache/
+
+# Unity のメモリキャッシュや自動生成ファイル（時に非常に大きくなる）
+/.MemoryCache/
+
+# 依存パッケージやプラグインのキャッシュ
+/[Pp]lugins/Editor/JetBrains/
+
+# Git LFSを使用する場合、LFSで追跡する大きなファイル
+*.lfs
+
+# 他の大きなバイナリファイル
+*.fbx
+*.blend
+
+# その他の一般的なIDE関連のファイル
+*.orig
